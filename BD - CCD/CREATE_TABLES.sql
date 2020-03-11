@@ -15,7 +15,8 @@ CREATE TABLE PRODUCTO(
 	puntuacion FLOAT(10),
 	numVotos INT,
 	acumulacionPuntos INT,
-	idRestaurante INT NOT NULL
+	idRestaurante INT NOT NULL,
+	ingredientes VARCHAR(500) NOT NULL
 )
 
 CREATE TABLE INGREDIENTE(
