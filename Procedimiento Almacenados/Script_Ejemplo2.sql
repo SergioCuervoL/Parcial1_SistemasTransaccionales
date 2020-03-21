@@ -1,0 +1,4 @@
+DECLARE @HM VARCHAR(45) = '¡Hola Mundo!'
+BEGIN
+	PRINT @HM
+END
